@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "reveal-md slides.md",
+    "watch": "reveal-md -w slides.md",
+    "build": "reveal-md slides.md --static dist --absolute-url https://ksami.github.io/node-workshop --featured-slide 0",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "reveal-md": "^2.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
