@@ -2,7 +2,7 @@
   "scripts": {
     "start": "reveal-md slides.md",
     "watch": "reveal-md -w slides.md",
-    "build": "reveal-md slides.md --static dist --absolute-url https://sara-ramco.github.io/cs5344/slides --featured-slide 0",
+    "build": "reveal-md slides.md --static dist --absolute-url https://sara-ramco.github.io/cs5344 --featured-slide 0",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
