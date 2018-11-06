@@ -183,7 +183,6 @@ and etc.
 
 ...
 
-
 #### Algorithm Performance Comparison
 
 ![algocomparison.png](img/algocomparison.png)
